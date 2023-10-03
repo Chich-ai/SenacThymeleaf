@@ -13,6 +13,7 @@ public class PessoaController {
     @GetMapping("/")
     public String inicial(Model model){
         List<Pessoa> pessoas = new ArrayList<>();
+
         pessoas.add(new Pessoa("Niko"));
         pessoas.add(new Pessoa("Tramontina"));
         pessoas.add(new Pessoa("Avila"));

@@ -5,14 +5,14 @@
     <title>TESTE THYMELEAF</title>
 </head>
 <header>
-    <p>TESTE</p>
+    <p></p>
 </header>
 <body>
 <h1>LISTA</h1>
 <br>
 <ul>
-    <li th:each="pessoa : ${pessoas}">
-        <span th:text="${pessoa.nome}">nome da pessoa</span>
+    <li th:each="pessoa : ${pessoa}">
+        <span th:text="${pessoa.nome}"></span>
     </li>
 </ul>
 </body>
