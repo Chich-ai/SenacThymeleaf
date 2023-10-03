@@ -19,7 +19,7 @@ public class PessoaController {
         pessoas.add(new Pessoa("Chai"));
         pessoas.add(new Pessoa("Alysson"));
 
-        model.addAttribute("pessoas", model)
+        model.addAttribute("pessoas", model);
         return "index";
     }
 

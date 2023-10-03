@@ -11,9 +11,11 @@
 <h1>LISTA</h1>
 <br>
 <ul>
-    <li>
-
+    <li th:each="pessoa : ${pessoas}">
+        <span th:text="${pessoa.nome}">nome da pessoa</span>
     </li>
 </ul>
 </body>
+<footer>
+</footer>
 </html>
